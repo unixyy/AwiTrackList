@@ -14,6 +14,10 @@
 		9FEFCE0229924AEE007DD167 /* AwiTrackListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE0129924AEE007DD167 /* AwiTrackListTests.swift */; };
 		9FEFCE0C29924AEE007DD167 /* AwiTrackListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE0B29924AEE007DD167 /* AwiTrackListUITests.swift */; };
 		9FEFCE0E29924AEE007DD167 /* AwiTrackListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE0D29924AEE007DD167 /* AwiTrackListUITestsLaunchTests.swift */; };
+		9FEFCE1C29924DDF007DD167 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE1B29924DDF007DD167 /* TrackModel.swift */; };
+		9FEFCE2029925098007DD167 /* TrackModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE1F29925098007DD167 /* TrackModelView.swift */; };
+		9FEFCE2429926C2C007DD167 /* TrackUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE2329926C2C007DD167 /* TrackUIView.swift */; };
+		9FEFCE262992711B007DD167 /* ListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEFCE252992711B007DD167 /* ListModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		9FEFCE0729924AEE007DD167 /* AwiTrackListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwiTrackListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEFCE0B29924AEE007DD167 /* AwiTrackListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwiTrackListUITests.swift; sourceTree = "<group>"; };
 		9FEFCE0D29924AEE007DD167 /* AwiTrackListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwiTrackListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FEFCE1B29924DDF007DD167 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		9FEFCE1F29925098007DD167 /* TrackModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModelView.swift; sourceTree = "<group>"; };
+		9FEFCE2329926C2C007DD167 /* TrackUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackUIView.swift; sourceTree = "<group>"; };
+		9FEFCE252992711B007DD167 /* ListModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,14 @@
 		9FEFCDEF29924AED007DD167 /* AwiTrackList */ = {
 			isa = PBXGroup;
 			children = (
+				9FEFCE1A29924DD2007DD167 /* Models */,
 				9FEFCDF029924AED007DD167 /* AwiTrackListApp.swift */,
 				9FEFCDF229924AED007DD167 /* ContentView.swift */,
+				9FEFCE252992711B007DD167 /* ListModelView.swift */,
+				9FEFCE2329926C2C007DD167 /* TrackUIView.swift */,
 				9FEFCDF429924AEE007DD167 /* Assets.xcassets */,
 				9FEFCDF629924AEE007DD167 /* Preview Content */,
+				9FEFCE1F29925098007DD167 /* TrackModelView.swift */,
 			);
 			path = AwiTrackList;
 			sourceTree = "<group>";
@@ -125,6 +137,14 @@
 				9FEFCE0D29924AEE007DD167 /* AwiTrackListUITestsLaunchTests.swift */,
 			);
 			path = AwiTrackListUITests;
+			sourceTree = "<group>";
+		};
+		9FEFCE1A29924DD2007DD167 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FEFCE1B29924DDF007DD167 /* TrackModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEFCE2429926C2C007DD167 /* TrackUIView.swift in Sources */,
+				9FEFCE2029925098007DD167 /* TrackModelView.swift in Sources */,
+				9FEFCE262992711B007DD167 /* ListModelView.swift in Sources */,
 				9FEFCDF329924AED007DD167 /* ContentView.swift in Sources */,
+				9FEFCE1C29924DDF007DD167 /* TrackModel.swift in Sources */,
 				9FEFCDF129924AED007DD167 /* AwiTrackListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
